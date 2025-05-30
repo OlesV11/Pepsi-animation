@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pepsi</title>
+    <link rel="stylesheet" href="./pepsi.css" />
+  </head>
+  <body>
+    <section class="sec">
+      <header>
+        <a href="#"><img src="./img/logo.png" alt="logo" class="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Whats new</a></li>
+          <li><a href="#">NewsLetter</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>Thats What <br /><span>i like</span></h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
+            consectetur inventore vero aliquid velit maiores rerum eum
+            laudantium! Natus ipsam eligendi et reprehenderit. Velit commodi est
+            quasi?
+          </p>
+          <a href="">View All Products</a>
+        </div>
+        <div class="imgBox">
+          <img src="./img/pepsi001.png" alt="pepsi" class="pepsi" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="./img/pepsi001.png"
+            alt="pepsi"
+            onclick="imgSlider('./img/pepsi001.png');changeBgcolor('#0062be')"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/pepsi002.png"
+            alt="pepsi"
+            onclick="imgSlider('./img/pepsi002.png');changeBgcolor('#e60c2c')"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/pepsi003.png"
+            alt="pepsi"
+            onclick="imgSlider('./img/pepsi003.png');changeBgcolor('#1e1e1e')"
+          />
+        </li>
+      </ul>
+    </section>
+    <script src="./pepsi-js.js"></script>
+  </body>
+</html>
