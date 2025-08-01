@@ -1,7 +1,3 @@
-// function imgSlider(anything) {
-//     document.querySelector('.pepsi').src = anything;
-// }
-// imgSlider();
 
 function imgSlider(src) {
     document.querySelector('.pepsi').src = src;
